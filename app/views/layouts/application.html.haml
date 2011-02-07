@@ -1,0 +1,9 @@
+!!! html
+%html
+  %head
+    %title= SassDemo
+    = stylesheet_link_tag :all, "test"
+    = javascript_include_tag :defaults
+    = csrf_meta_tag
+  %body
+    = yield

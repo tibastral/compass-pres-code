@@ -1,0 +1,26 @@
+$main-color: lighten(#892328, 10%)
+// $main-color: #293889
+// $main-color: #823989
+
+.hellos
+  background-color: $main-color
+  color: white
+  margin-left: 15em
+  margin-right: 15em
+  -webkit-box-shadow: 0px 0px 10px $main-color
+  -moz-box-shadow: 0px 0px 10px $main-color
+  -moz-border-radius: 10px
+  -webkit-border-radius: 10px
+  font-size: 150%
+  list-style-type: none
+  padding: 0
+  border-top: lighten($main-color, 10%) 5px solid
+  border-bottom: darken($main-color, 20%) 5px solid
+  li
+    padding: 1em
+    border-top: lighten($main-color, 10%) 1px solid
+    border-bottom: darken($main-color, 20%) 1px solid
+    &:first-child
+      border-top: none
+    &:last-child
+      border-bottom: none

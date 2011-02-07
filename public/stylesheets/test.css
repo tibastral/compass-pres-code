@@ -1,0 +1,22 @@
+.hellos {
+  background-color: #b22d34;
+  color: white;
+  margin-left: 15em;
+  margin-right: 15em;
+  -webkit-box-shadow: 0px 0px 10px #b22d34;
+  -moz-box-shadow: 0px 0px 10px #b22d34;
+  -moz-border-radius: 10px;
+  -webkit-border-radius: 10px;
+  font-size: 150%;
+  list-style-type: none;
+  padding: 0;
+  border-top: #cf434a 5px solid;
+  border-bottom: #60191c 5px solid; }
+  .hellos li {
+    padding: 1em;
+    border-top: #cf434a 1px solid;
+    border-bottom: #60191c 1px solid; }
+    .hellos li:first-child {
+      border-top: none; }
+    .hellos li:last-child {
+      border-bottom: none; }
